@@ -6,7 +6,7 @@
 #
 ###########################################################################################
 CNOT5_43 <- function(a){
-    cnot5_43=TensorProd(diag(2), CNOT4_23(diag(16)))
+    cnot5_43=TensorProd(diag(2), CNOT4_32(diag(16)))
     result = cnot5_43 %*% a
     result
 }
