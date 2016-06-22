@@ -1,4 +1,5 @@
 C%3A%2Fsoftware%2Fcricket-package%2Fyork-test%2Fyorkr%2FR%2FmatchWormChart.R="758D85F4"
+C%3A%2Fsoftware%2Fquantum%2FQCSimulator.Rmd="F9B9EF78"
 C%3A%2Fsoftware%2Fquantum%2Fsimulator%2FQCSimulator%2FDESCRIPTION="1CB1FC00"
 C%3A%2Fsoftware%2Fquantum%2Fsimulator%2FQCSimulator%2FR%2FCHadamard.R="6DB46B50"
 C%3A%2Fsoftware%2Fquantum%2Fsimulator%2FQCSimulator%2FR%2FCNOT2_01.R="264E4951"
@@ -62,6 +63,7 @@ C%3A%2Fsoftware%2Fquantum%2Fsimulator%2FQCSimulator%2FR%2FTensorProd.R="924AE040
 C%3A%2Fsoftware%2Fquantum%2Fsimulator%2FQCSimulator%2FR%2FToffoli.R="AAD2B0A9"
 C%3A%2Fsoftware%2Fquantum%2Fsimulator%2FQCSimulator%2FR%2FToffoliState.R="4A6121AE"
 C%3A%2Fsoftware%2Fquantum%2Fsimulator%2FQCSimulator%2FR%2Fhello.R="A829759F"
+C%3A%2Fsoftware%2Fquantum%2Fsimulator%2FQCSimulator%2FR%2Finit.R="46CFB0C8"
 C%3A%2Fsoftware%2Fquantum%2Fsimulator%2FQCSimulator%2FR%2FinnerProduct.R="F5DBB985"
 C%3A%2Fsoftware%2Fquantum%2Fsimulator%2FQCSimulator%2FR%2Fmeasurement.R="36BC8440"
 C%3A%2Fsoftware%2Fquantum%2Fsimulator%2FQCSimulator%2FR%2FplotMeasurement.R="DE91AE71"
