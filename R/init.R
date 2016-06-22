@@ -15,6 +15,10 @@ init <- function(){
     # 16 x 16 Identity matrix
     I16 <<- diag(16)
 
+    # 1 qubit
+    # {0,1}
+    q0_ <<-matrix(c(1,0),nrow=2,ncol=1)
+    q1_ <<-matrix(c(0,1),nrow=2,ncol=1)
     # 2 qubits
     # {00,01,10,11}
     q00_<<-matrix(c(1,0,0,0),nrow=4,ncol=1)
