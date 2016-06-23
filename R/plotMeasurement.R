@@ -40,6 +40,6 @@ plotMeasurement <- function(a){
     ggplot(c,aes(x=qubits,y=p,fill=p)) + geom_bar(stat="identity") +
         xlab("Qubits") + ylab("Probability") + ylim(0,1.0) +
         ggtitle("Probabilty distribution") +
-        geom_text(aes(label= format(p,digit=3),y=p+0.05))
+        geom_text(aes(label= format(p,digits=3,nsmall=0),y=p+0.05))
 
 }
