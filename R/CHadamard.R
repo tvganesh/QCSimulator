@@ -5,7 +5,6 @@
 # This function computes  a controlled Hadamard Gate
 #
 ###########################################################################################
-
 #' @title
 #' controlled Hadamard Gate
 #'
@@ -30,10 +29,11 @@
 #' Maintainer: Tinniam V Ganesh \email{tvganesh.85@gmail.com}
 #'
 #' @examples
-#' \dontrun{
+#' # Initialze global variables
+#' init()
 #' CHadamard(q00_)
 #' CHadamard(I4)
-#' }
+#'
 #' @seealso
 #' \code{\link{CNOT2_01}}\cr
 #' \code{\link{PauliX}}\cr
