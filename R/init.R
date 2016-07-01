@@ -5,6 +5,45 @@
 # This function performs a dot product between 2 vectors
 #
 ###########################################################################################
+#' @title
+#' Initialization
+#'
+#' @description
+#' This function performs an initialization and sets variables in the global environment
+#'
+#' @usage
+#' init()
+#'
+#'
+#'
+#' @references
+#' \url{https://quantumexperience.ng.bluemix.net/}\cr
+#' \url{https://gigadom.wordpress.com/2016/06/23/introducing-qcsimulator-a-5-qubit-quantum-computing-simulator-in-r/}\cr
+#'
+#' @author
+#' Tinniam V Ganesh
+#' @note
+#' Maintainer: Tinniam V Ganesh \email{tvganesh.85@gmail.com}
+#'
+#' @examples
+#' # Initialze global variables
+#' init()
+#' # Display variables
+#' ls()
+#' q001_
+#' I16
+#'
+#'
+#' @seealso
+#' \code{\link{CNOT2_10}}\cr
+#' \code{\link{PauliX}}\cr
+#' \code{\link{measurement}}\cr
+#' \code{\link{plotMeasurement}}\cr
+#' \code{\link{CNOT5_03}}\cr
+#' \code{\link{CNOT3_13}}\cr
+#'
+#' @export
+#'
 init <- function(){
     # 2 x 2 Identity matrix
     I2 <<- diag(2)

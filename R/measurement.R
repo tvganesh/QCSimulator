@@ -5,6 +5,47 @@
 # This function  performs a measurement of a quantum state
 #
 ###########################################################################################
+#' @title
+#' Computes the square of the modulus
+#'
+#' @description
+#' This function computes the square of the amplitude of the vectors
+#'
+#' @usage
+#' measurement(a,b)
+#'
+#' @param a
+#' The vector
+#'
+#'
+#' @return x
+#' The square of the modulus of the vector
+#'
+#' @references
+#' \url{https://quantumexperience.ng.bluemix.net/}\cr
+#' \url{https://gigadom.wordpress.com/2016/06/23/introducing-qcsimulator-a-5-qubit-quantum-computing-simulator-in-r/}\cr
+#'
+#' @author
+#' Tinniam V Ganesh
+#' @note
+#' Maintainer: Tinniam V Ganesh \email{tvganesh.85@gmail.com}
+#'
+#' @examples
+#' # Initialze global variables
+#' init()
+#' measurement(TGate(PauliX(I2)))
+#'
+#'
+#' @seealso
+#' \code{\link{CNOT2_10}}\cr
+#' \code{\link{PauliX}}\cr
+#' \code{\link{measurement}}\cr
+#' \code{\link{plotMeasurement}}\cr
+#' \code{\link{CNOT5_03}}\cr
+#' \code{\link{CNOT3_13}}\cr
+#'
+#' @export
+#'
 measurement <- function(a) {
      d <- dim(a)
      v <- NULL
