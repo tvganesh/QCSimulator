@@ -24,7 +24,7 @@ Maintainer: Tinniam V Ganesh \email{tvganesh.85@gmail.com}
 # Initialze global variables
 init()
 CNOT5_43(q10010_)
-CNOT5_43(I16)
+CNOT5_43(I32)
 
 }
 \author{

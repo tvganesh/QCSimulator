@@ -35,8 +35,8 @@
 #' @examples
 #' # Initialze global variables
 #' init()
-#' DotProduct(q11_,q10_)
-#'
+#' DotProduct(Hadamard(I2),q1_)
+#' DotProduct(CNOT2_01(I4),q01_)
 #'
 #' @seealso
 #' \code{\link{CNOT2_10}}\cr

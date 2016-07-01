@@ -43,7 +43,7 @@
 #' @export
 #'
 init <- function(){
-    I2=I4=I8=I16=NULL
+    I2=I4=I8=I16=I32=NULL
     q0_=q1_=NULL
     q00_=q01_=q10_=q11_=NULL
     q000_=q001_=q010_=q011_=q100_=q101_=q110_=q111_=NULL
@@ -51,7 +51,7 @@ init <- function(){
     q1000_=q1001_=q1010_=q1011_=q1100_=q1101_=q1110_=q1111_=NULL
     q00000_=q00001_=q00010_=q00011_=q00100_=q00101_=q00110_=q00111_=NULL
     q01000_=q01001_=q01010_=q01011_=q01100_=q01101_=q01110_=q01111_=NULL
-    q10001_=q10010_=q10011_=q10100_=q10101_=q10110_=q10111_=NULL
+    q10000_=q10001_=q10010_=q10011_=q10100_=q10101_=q10110_=q10111_=NULL
     q11000_=q11001_=q11010_=q11011_=q11100_=q11101_=q11110_=q11111_=NULL
     # 2 x 2 Identity matrix
     I2 <<- diag(2)
@@ -61,6 +61,8 @@ init <- function(){
     I8 <<- diag(8)
     # 16 x 16 Identity matrix
     I16 <<- diag(16)
+    # 32 x 32 Identity matrix
+    I32 <<- diag(32)
 
     # 1 qubit
     # {0,1}

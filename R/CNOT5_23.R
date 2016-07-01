@@ -34,7 +34,7 @@
 #' # Initialze global variables
 #' init()
 #' CNOT5_23(q10010_)
-#' CNOT5_23(I16)
+#' CNOT5_23(I32)
 #'
 #' @seealso
 #' \code{\link{CNOT2_10}}\cr
@@ -48,6 +48,6 @@
 #'
 CNOT5_23 <- function(a){
     cnot5_23=TensorProd(CNOT4_23(diag(16)),diag(2))
-    result = CNOT5_21 %*% a
+    result = cnot5_23 %*% a
     result
 }

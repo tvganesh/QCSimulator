@@ -34,7 +34,7 @@
 #' # Initialze global variables
 #' init()
 #' CNOT5_41(q10010_)
-#' CNOT5_41(I16)
+#' CNOT5_41(I32)
 #'
 #' @seealso
 #' \code{\link{CNOT2_10}}\cr
