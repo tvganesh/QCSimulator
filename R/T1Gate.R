@@ -12,7 +12,7 @@
 #' This function applies a  T1Gate on its input
 #'
 #' @usage
-#' SGate(a)
+#' T1Gate(a)
 #'
 #' @param a
 #' The input
@@ -42,7 +42,7 @@
 #' \code{\link{measurement}}\cr
 #' \code{\link{plotMeasurement}}\cr
 #' \code{\link{CNOT5_03}}\cr
-#' \code{\link{CNOT3_13}}\cr
+#' \code{\link{CNOT3_12}}\cr
 #'
 #' @export
 #'

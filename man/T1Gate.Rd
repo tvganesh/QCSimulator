@@ -4,7 +4,7 @@
 \alias{T1Gate}
 \title{Apply a T1Gate}
 \usage{
-SGate(a)
+T1Gate(a)
 }
 \arguments{
 \item{a}{The input}
@@ -40,6 +40,6 @@ Tinniam V Ganesh
 \code{\link{measurement}}\cr
 \code{\link{plotMeasurement}}\cr
 \code{\link{CNOT5_03}}\cr
-\code{\link{CNOT3_13}}\cr
+\code{\link{CNOT3_12}}\cr
 }
 

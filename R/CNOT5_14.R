@@ -34,7 +34,7 @@
 #' # Initialze global variables
 #' init()
 #' CNOT5_14(q10010_)
-#' CNOT5_14(I32)
+#' CNOT5_14(I16)
 #'
 #' @seealso
 #' \code{\link{CNOT2_10}}\cr
@@ -42,7 +42,7 @@
 #' \code{\link{measurement}}\cr
 #' \code{\link{plotMeasurement}}\cr
 #' \code{\link{CNOT5_03}}\cr
-#' \code{\link{CNOT3_13}}\cr
+#' \code{\link{CNOT4_13}}\cr
 #'
 #' @export
 #'

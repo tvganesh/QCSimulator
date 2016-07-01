@@ -39,11 +39,12 @@
 #' \code{\link{measurement}}\cr
 #' \code{\link{plotMeasurement}}\cr
 #' \code{\link{CNOT5_03}}\cr
-#' \code{\link{CNOT3_13}}\cr
+#' \code{\link{CNOT4_13}}\cr
 #'
 #' @export
 #'
 SWAPQ0Q1 <- function(a){
+    c3=c4=NULL
     H=1/sqrt(2) * matrix(c(1,1,1,-1),nrow=2,ncol=2)
     I=matrix(c(1,0,0,1),nrow=2,ncol=2)
 

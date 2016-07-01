@@ -4,7 +4,7 @@ Title: 5 Qubit Quantum Computing Simulator
 Version: 0.0.1
 Author: Tinniam V Ganesh
 Maintainer: Tinniam V Ganesh<tvganesh.85@gmail.com>
-Description: This package simulates a 5 qubit Quantum Computer
+Description: This package simulates a 5 qubit Quantum Computer.
 LazyData: TRUE
 License: MIT + file LICENSE
 Depends:

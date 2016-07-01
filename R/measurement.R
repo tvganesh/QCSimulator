@@ -12,7 +12,7 @@
 #' This function computes the square of the amplitude of the vectors
 #'
 #' @usage
-#' measurement(a,b)
+#' measurement(a)
 #'
 #' @param a
 #' The vector
@@ -42,7 +42,7 @@
 #' \code{\link{measurement}}\cr
 #' \code{\link{plotMeasurement}}\cr
 #' \code{\link{CNOT5_03}}\cr
-#' \code{\link{CNOT3_13}}\cr
+#' \code{\link{CNOT5_13}}\cr
 #'
 #' @export
 #'

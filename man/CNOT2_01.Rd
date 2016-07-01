@@ -23,8 +23,8 @@ Maintainer: Tinniam V Ganesh \email{tvganesh.85@gmail.com}
 \examples{
 # Initialze global variables
 init()
-CNOT2_01(q1_)
-CNOT2_01(I2)
+CNOT2_01(q11_)
+CNOT2_01(I4)
 
 }
 \author{
@@ -40,6 +40,6 @@ Tinniam V Ganesh
 \code{\link{measurement}}\cr
 \code{\link{plotMeasurement}}\cr
 \code{\link{CNOT5_03}}\cr
-\code{\link{CNOT3_13}}\cr
+\code{\link{CNOT3_12}}\cr
 }
 

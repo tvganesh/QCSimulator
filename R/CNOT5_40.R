@@ -34,7 +34,7 @@
 #' # Initialze global variables
 #' init()
 #' CNOT5_40(q10010_)
-#' CNOT5_40(I32)
+#' CNOT5_40(I16)
 #'
 #' @seealso
 #' \code{\link{CNOT2_10}}\cr
@@ -42,22 +42,22 @@
 #' \code{\link{measurement}}\cr
 #' \code{\link{plotMeasurement}}\cr
 #' \code{\link{CNOT5_03}}\cr
-#' \code{\link{CNOT3_13}}\cr
+#' \code{\link{CNOT5_13}}\cr
 #'
 #' @export
 #'
 CNOT5_40 <- function(a){
 
     cnot5_40 = diag(32)
-    cnot5_40[,c(2,18)] = cnot4_03[,c(18,2)]
-    cnot5_40[,c(4,20)] = cnot4_03[,c(20,4)]
-    cnot5_40[,c(6,22)] = cnot4_03[,c(22,6)]
-    cnot5_40[,c(8,24)] = cnot4_03[,c(24,8)]
-    cnot5_40[,c(10,26)] = cnot4_03[,c(26,10)]
-    cnot5_40[,c(12,28)] = cnot4_03[,c(28,12)]
-    cnot5_40[,c(14,30)] = cnot4_03[,c(30,14)]
-    cnot5_40[,c(16,32)] = cnot4_03[,c(32,16)]
-    result = cnot5_40 %*% a
+    cnot5_40[,c(2,18)] = CNOT4_03[,c(18,2)]
+    cnot5_40[,c(4,20)] = CNOT4_03[,c(20,4)]
+    cnot5_40[,c(6,22)] = CNOT4_03[,c(22,6)]
+    cnot5_40[,c(8,24)] = CNOT4_03[,c(24,8)]
+    cnot5_40[,c(10,26)] = CNOT4_03[,c(26,10)]
+    cnot5_40[,c(12,28)] = CNOT4_03[,c(28,12)]
+    cnot5_40[,c(14,30)] = CNOT4_03[,c(30,14)]
+    cnot5_40[,c(16,32)] = CNOT4_03[,c(32,16)]
+    result = CNOT5_40 %*% a
     result
 
 }

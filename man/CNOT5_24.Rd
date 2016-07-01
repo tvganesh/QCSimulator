@@ -24,7 +24,7 @@ Maintainer: Tinniam V Ganesh \email{tvganesh.85@gmail.com}
 # Initialze global variables
 init()
 CNOT5_24(q10010_)
-CNOT5_24(I32)
+CNOT5_24(I16)
 
 }
 \author{
@@ -40,6 +40,6 @@ Tinniam V Ganesh
 \code{\link{measurement}}\cr
 \code{\link{plotMeasurement}}\cr
 \code{\link{CNOT5_03}}\cr
-\code{\link{CNOT3_13}}\cr
+\code{\link{CNOT5_13}}\cr
 }
 

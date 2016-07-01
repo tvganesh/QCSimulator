@@ -14,8 +14,6 @@
 #' @usage
 #' init()
 #'
-#'
-#'
 #' @references
 #' \url{https://quantumexperience.ng.bluemix.net/}\cr
 #' \url{https://gigadom.wordpress.com/2016/06/23/introducing-qcsimulator-a-5-qubit-quantum-computing-simulator-in-r/}\cr
@@ -40,11 +38,21 @@
 #' \code{\link{measurement}}\cr
 #' \code{\link{plotMeasurement}}\cr
 #' \code{\link{CNOT5_03}}\cr
-#' \code{\link{CNOT3_13}}\cr
+#' \code{\link{CNOT5_13}}\cr
 #'
 #' @export
 #'
 init <- function(){
+    I2=I4=I8=I16=NULL
+    q0_=q1_=NULL
+    q00_=q01_=q10_=q11_=NULL
+    q000_=q001_=q010_=q011_=q100_=q101_=q110_=q111_=NULL
+    q0000_=q0001_=q0010_=q0011_=q0100_=q0101_=q0110_=q0111_=NULL
+    q1000_=q1001_=q1010_=q1011_=q1100_=q1101_=q1110_=q1111_=NULL
+    q00000_=q00001_=q00010_=q00011_=q00100_=q00101_=q00110_=q00111_=NULL
+    q01000_=q01001_=q01010_=q01011_=q01100_=q01101_=q01110_=q01111_=NULL
+    q10001_=q10010_=q10011_=q10100_=q10101_=q10110_=q10111_=NULL
+    q11000_=q11001_=q11010_=q11011_=q11100_=q11101_=q11110_=q11111_=NULL
     # 2 x 2 Identity matrix
     I2 <<- diag(2)
     # 4 x 4 Identity matrix

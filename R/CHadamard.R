@@ -56,7 +56,7 @@ CHadamard <- function (q){
     c = kronecker(a,b,"*")
 
     # Apply CNOT
-    d = CNOT(c)
+    d = CNOT2_01(c)
     d1 = d %*% q ############# To do - Remove q
 
     # Compute 3rd chain
@@ -66,7 +66,7 @@ CHadamard <- function (q){
     f1 = kronecker(I,e,"*")
 
     # Apply CNOT
-    f2 = CNOT(f1)
+    f2 = CNOT2_01(f1)
 
     # Compute the result of 2nd composite
     g1 = f2 %*% d1
