@@ -84,8 +84,8 @@ init <- function(){
 
     q100_<<-matrix(c(0,0,0,0,1,0,0,0),nrow=8,ncol=1)
     q101_<<-matrix(c(0,0,0,0,0,1,0,0),nrow=8,ncol=1)
-    q110_<<-matrix(c(1,0,0,0,0,0,1,0),nrow=8,ncol=1)
-    q111_<<-matrix(c(1,0,0,0,0,0,0,1),nrow=8,ncol=1)
+    q110_<<-matrix(c(0,0,0,0,0,0,1,0),nrow=8,ncol=1)
+    q111_<<-matrix(c(0,0,0,0,0,0,0,1),nrow=8,ncol=1)
 
     # 4 qubits
     #{0000,0001,0010,0011,0100,0101,0110,0111,

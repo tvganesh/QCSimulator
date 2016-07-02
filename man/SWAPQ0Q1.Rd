@@ -4,10 +4,10 @@
 \alias{SWAPQ0Q1}
 \title{SWAP Q0 Q1}
 \usage{
-SWAPQ0Q1(a)
+SWAPQ0Q1(q)
 }
 \arguments{
-\item{a}{The input}
+\item{q}{The input}
 }
 \description{
 This function swaps q0 and q1
@@ -19,6 +19,7 @@ Maintainer: Tinniam V Ganesh \email{tvganesh.85@gmail.com}
 # Initialze global variables
 init()
 SWAPQ0Q1(q110_)
+SWAPQ0Q1(q010_)
 
 
 }

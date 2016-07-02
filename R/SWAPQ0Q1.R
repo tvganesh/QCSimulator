@@ -12,9 +12,9 @@
 #' This function swaps q0 and q1
 #'
 #' @usage
-#' SWAPQ0Q1(a)
+#' SWAPQ0Q1(q)
 #'
-#' @param a
+#' @param q
 #' The input
 #'
 #'
@@ -31,6 +31,7 @@
 #' # Initialze global variables
 #' init()
 #' SWAPQ0Q1(q110_)
+#' SWAPQ0Q1(q010_)
 #'
 #'
 #' @seealso
@@ -43,7 +44,7 @@
 #'
 #' @export
 #'
-SWAPQ0Q1 <- function(a){
+SWAPQ0Q1 <- function(q){
     c3=c4=NULL
     H=1/sqrt(2) * matrix(c(1,1,1,-1),nrow=2,ncol=2)
     I=matrix(c(1,0,0,1),nrow=2,ncol=2)
@@ -53,23 +54,23 @@ SWAPQ0Q1 <- function(a){
     a = TensorProd(TensorProd(H,I),I)
     # 1st CNOT
     a1= CNOT3_02(a)
-
+    a2 = DotProduct(a1,q)
     # 2nd composite
     # H x I x H
     b= TensorProd(TensorProd(H,I),H)
-    b1 = DotProduct(b,a1)
+    b1 = DotProduct(b,a2)
     # Apply CNOT
-    b1 = CNOT3_02(b)
+    b2 = CNOT3_02(b1)
 
     #3rd composite
     # H x I x H
     c = TensorProd(TensorProd(H,I),H)
-    c1 = DotProduct(c,b1)
+    c1 = DotProduct(c,b2)
     # Apply CNOT
-    c4 = CNOT3_02(c3)
+    c2 = CNOT3_02(c1)
 
     # Apply CNOT
-    d1 = CNOT3_12(c4)
+    d1 = CNOT3_12(c2)
 
     #4th composite
     # I x H x H
