@@ -30,7 +30,7 @@
 #' @examples
 #' # Initialze global variables
 #' init()
-#' plotMeasurement(TGate(PauliX(I2)))
+#' plotMeasurement(measurement(TensorProd(Hadamard(I2),Hadamard(I2))))
 #'
 #'
 #' @seealso

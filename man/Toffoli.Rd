@@ -22,7 +22,8 @@ Maintainer: Tinniam V Ganesh \email{tvganesh.85@gmail.com}
 \examples{
 # Initialze global variables
 init()
-Toffoli(q1_)
+Toffoli(q100_)
+Toffoli(q101_)
 
 
 }

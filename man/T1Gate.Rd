@@ -23,7 +23,7 @@ Maintainer: Tinniam V Ganesh \email{tvganesh.85@gmail.com}
 # Initialze global variables
 init()
 T1Gate(q1_)
-T1Gate(Sgate(Hadamard(I2)))
+T1Gate(SGate(Hadamard(I2)))
 
 
 }
