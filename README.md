@@ -1,4 +1,13 @@
 # QCSimulator
+#### Package downloads from the [RStudio CRAN Mirror](http://cran-logs.rstudio.com/)</b>
+
+This month      | In total
+--------------- | -----------
+![month](http://cranlogs.r-pkg.org/badges/QCSimulator) | ![total](http://cranlogs.r-pkg.org/badges/grand-total/QCSimulator)
+
+<hr>
+
+
 This R package simulates a 5 qubit Quantum Computer
 QCSimulator can simulate the following  quantum gates
 
